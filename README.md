@@ -17,3 +17,4 @@
 16. docker build -t gcr.io/tokyo-portal-304417/hello-app:v2 .
 17. docker push gcr.io/tokyo-portal-304417/hello-app:v2
 19. kubectl set image deployment/hello-app hello-app=gcr.io/tokyo-portal-304417/hello-app:v2
+20. app address http://35.241.222.66/
